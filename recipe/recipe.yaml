@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "26.3.0"
+  version: "26.9.0"
 
 package:
   name: tox-ansible
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/tox-ansible/tox_ansible-${{ version }}.tar.gz
-  sha256: 0c036cc5148a2907d62f725caebbcb5fe302b449fbfe7001ce28728d652d710f
+  sha256: a4638171db7032f22d4f61e3cdb490329304efab7b753061d3ad8e43dbf07349
 
 build:
   noarch: python
